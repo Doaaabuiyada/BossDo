@@ -1,3 +1,12 @@
+header {
+  width: 100vw;
+  background: url(cover.PNG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
 .signup{
 	justify-content: center;
 	display: flex;
@@ -6,15 +15,16 @@
 
 .input{
 	font-size:17px;
-	width: 20%;
-	height: 30px;
+	width: 30%;
+	height: 40px;
 	text-align: left;
 	border-style: solid;
 	border-radius: 10px;
 }
 .signupLabel{
 	text-align: center;
-	font-size: 30px;
+	font-size: 45px;
+	font-family: Merriweather, serif;
 }
 #profileImg{
 	
@@ -35,3 +45,10 @@
 	margin-top:20px;
 
 }
+#postbtn{
+	margin: auto;
+  	display: block;
+	width: 90px;
+	height: 50px;
+	margin-top:20px;
+	}
