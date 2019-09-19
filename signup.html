@@ -35,7 +35,9 @@
 <button class="input" style="text-align: center"> sign up</button>
 </div>
 <div class="signup">
-<button class="input" style="text-align: center" id="tosignin" onclick="location.href='signin.html';"> have account? sign in</button>
+<button class="input" style="text-align: center" id="tosignin" onclick=" signUp(document.getElementById('name').value,
+document.getElementById('dateOfBirth').value, document.getElementById('email').value, 
+document.getElementById('password').value) ; parent.location= ('signin.html') "> have account? sign in</button>
 </div>
 
 
